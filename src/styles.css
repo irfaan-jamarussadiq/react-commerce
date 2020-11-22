@@ -2,7 +2,6 @@
   margin: 0;
 }
 
-
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -11,12 +10,13 @@
 .NavBar {
   background-color: black;
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .NavBar #nav-list {
   width: 100%;
   float: left;
-  margin: 0.5em 0 3em 0;
   padding: 0;
   list-style: none;
   display: flex;
