@@ -5,10 +5,13 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "-": "0.0.1",
+    "@fullpage/react-fullpage": "^0.1.18",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-image-gallery": "1.0.8",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^3.4.3",
+    "save-dev": "0.0.1-security"
   },
   "devDependencies": {
     "typescript": "3.8.3"

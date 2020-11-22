@@ -2,13 +2,14 @@
   margin: 0;
 }
 
+
 .App {
   font-family: sans-serif;
   text-align: center;
 }
 
 .NavBar {
-  background-color: navy;
+  background-color: black;
   height: 50px;
 }
 
@@ -24,19 +25,20 @@
 }
 
 .NavBar #nav-list .logo {
-  width: 10%;
+  width: 5%;
   float: left;
 }
 
 .NavBar #nav-list li {
   float: left;
+  text-transform: uppercase;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .NavBar #nav-list a {
   display: block;
   color: white;
   padding: 8px 15px;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 
