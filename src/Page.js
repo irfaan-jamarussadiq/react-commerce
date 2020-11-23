@@ -21,7 +21,7 @@ const FullpageWrapper = () => (
         <div>
             <div class="section active" id="section0">
                 <div class="intro-container">
-                    <h1>Welcome!</h1>
+                    <h1 class="company">HomeCraft</h1>
                 </div>
             </div>
             <div class="section active" id="section1"></div>

@@ -54,18 +54,24 @@
 /* Defining each sectino background and styles 
 * --------------------------------------- */
 #section0 {
-  background:#000 url("./images/bedroom.jpg");
+  background:#000 url("./images/room_1.jpg");
   background-size: cover;
 }
 
 .intro-container {
   margin: 0 auto;
+  margin-bottom: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
-  width: 30%;
+  height: 36vh;
+  width: 27%;
   color: white;
   font-family: 'Nanum Gothic', sans-serif;
   background-color: black;
+}
+
+.company {
+  font-family: 'Nanum Gothic', cursive;
+  font-size: 48px;
 }
