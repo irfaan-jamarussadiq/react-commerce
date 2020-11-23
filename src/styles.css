@@ -10,6 +10,7 @@
 
 .NavBar {
   background-color: black;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
   height: 50px;
   display: flex;
   align-items: center;
@@ -74,4 +75,8 @@
 .company {
   font-family: 'Nanum Gothic', cursive;
   font-size: 48px;
+}
+
+.products {
+  margin-left: 15px;
 }
