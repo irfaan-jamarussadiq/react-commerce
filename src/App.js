@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar.js";
+import Section from "./Section.js";
 import LandingPage from "./LandingPage.js";
 import Pages from "./Pages.js";
 import "./styles.css";
@@ -9,7 +10,29 @@ export default function App() {
     <div className="App">
       <NavBar />
       <LandingPage />
-      <Pages />
+      <Section
+        title="Shop"
+        text={""}
+        dark={false}
+        id="section1"
+      >
+      </Section>
+
+      <Section
+        title="Collections"
+        text={""}
+        dark={false}
+        id="section2"
+      >
+      </Section>
+
+      <Section
+        title="Account"
+        text={""}
+        dark={false}
+        id="section3"
+      >
+      </Section>
     </div>
   );
 }

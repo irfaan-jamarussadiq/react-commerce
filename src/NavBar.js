@@ -1,19 +1,50 @@
 import React from "react";
-import logo from "./images/react-logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavBar extends React.Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   render() {
     return (
       <div className="NavBar">
         <ul id="nav-list">
-          <li>
-            <a href="#shop">Shop</a>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="section1"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Shop
+            </Link>
           </li>
-          <li>
-            <a href="#collections">Collections</a>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Collections
+            </Link>
           </li>
-          <li>
-            <a href="#account">Account</a>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Account
+            </Link>
           </li>
         </ul>
       </div>
