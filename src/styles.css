@@ -52,31 +52,60 @@
   color: blue;
 }
 
-/* Defining each sectino background and styles 
-* --------------------------------------- */
-#section0 {
+.LandingPage {
+  margin-top: 5vh;
   background:#000 url("./images/room_1.jpg");
   background-size: cover;
-}
-
-.intro-container {
-  margin: 0 auto;
-  margin-bottom: 140px;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 36vh;
-  width: 27%;
-  color: white;
-  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.LandingPage .landing-container {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  height: 275px;
+  width: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
 }
 
-.company {
+.LandingPage .company-name {
   font-family: 'Nanum Gothic', cursive;
-  font-size: 48px;
+  font-weight: bold;
+  font-size: 4em;
+  color: white;
+	transform: scale(1);
+  animation: pulse-black 2s infinite;
+  animation-timing-function: ease-in;
+  text-decoration: none;
 }
 
-.products {
-  margin-left: 15px;
+.LandingPage .company-name:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes pulse-black {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.Pages h2 {
+  font-size: 48px;
 }
