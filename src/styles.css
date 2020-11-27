@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.text {
+  margin-top: 25px;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -107,6 +111,7 @@
 }
 
 .Pages .section .gallery {
+  margin: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 25vw);
@@ -117,4 +122,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.section-content {
+  margin-top: 50px;
 }

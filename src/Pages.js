@@ -23,7 +23,7 @@ export default function Pages() {
                     <figure class="gallery__item gallery__item--6">
                         <img src="images/table.jpg" class="gallery__img" alt="Image 6" />
                     </figure>
-                </div>   
+                </div>
             </div>
         </div>
     );
