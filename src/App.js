@@ -12,12 +12,11 @@ export default function App() {
       <LandingPage />
       <Section
         title="Shop"
-        text={""}
+        text={<Pages/>}
         dark={false}
         id="section1"
       >
       </Section>
-
       <Section
         title="Collections"
         text={""}

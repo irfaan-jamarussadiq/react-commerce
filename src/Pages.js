@@ -4,7 +4,6 @@ export default function Pages() {
     return (
         <div className="Pages">
             <div className="section" id="shop">
-                <h2>Shop</h2>
                 <div class="gallery">
                     <figure class="gallery__item gallery__item--1">
                         <img src="images/bedroom.jpg" class="gallery__img" alt="Image 1" />
@@ -25,14 +24,6 @@ export default function Pages() {
                         <img src="images/table.jpg" class="gallery__img" alt="Image 6" />
                     </figure>
                 </div>   
-            </div>
-
-            <div className="section" id="collections">
-                <h2>Collections</h2>
-            </div>
-
-            <div className="section" id="account">
-                <h2>Account</h2>
             </div>
         </div>
     );
