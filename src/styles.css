@@ -154,7 +154,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 15vw);
-    grid-gap: 50px;
+    grid-gap: 20px;
   }
 
   .product-price {
