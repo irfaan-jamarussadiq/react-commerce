@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar.js";
 import Section from "./Section.js";
+import Login from "./Login.js";
 import LandingPage from "./LandingPage.js";
 import ProductList from "./ProductList.js";
 import "./styles.css";
@@ -27,7 +28,7 @@ export default function App() {
 
       <Section
         title="Account"
-        text={""}
+        text={<Login/>}
         dark={false}
         id="section3"
       >
