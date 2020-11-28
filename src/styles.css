@@ -87,7 +87,6 @@
   animation-play-state: paused;
 }
 
-
 @keyframes pulse-black {
 	0% {
 		transform: scale(0.95);
@@ -105,12 +104,12 @@
 	}
 }
 
-.Pages h2 {
+.ProductList h2 {
   font-size: 48px;
   font-family: 'Nanum Gothic', cursive;
 }
 
-.Pages .section .gallery {
+.ProductList .section .gallery {
   margin: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -118,7 +117,8 @@
   grid-gap: 15px;
 }
 
-.Pages .section .gallery__img {
+.ProductList .section .gallery__img {
+  padding: 5px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -126,4 +126,19 @@
 
 .section-content {
   margin-top: 50px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.product-price {
+  float: right;
+}
+
+.gallery-item {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

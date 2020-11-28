@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar.js";
 import Section from "./Section.js";
 import LandingPage from "./LandingPage.js";
-import Pages from "./Pages.js";
+import ProductList from "./ProductList.js";
 import "./styles.css";
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
       <LandingPage />
       <Section
         title="Shop"
-        text={<Pages/>}
+        text={<ProductList/>}
         dark={false}
         id="section1"
       >
