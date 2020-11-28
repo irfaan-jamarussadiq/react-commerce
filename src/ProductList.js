@@ -14,7 +14,7 @@ export default function ProductList() {
                         </div>
 
                         <div className="product-price-container">
-                            <h4 className="product-price">$350.99</h4>
+                            <h3 className="product-price">$350.99</h3>
                         </div>
                     </div>
                     <div className="gallery-item">
