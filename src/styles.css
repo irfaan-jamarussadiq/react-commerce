@@ -48,7 +48,7 @@
 }
 
 .NavBar #nav-list a:hover {
-  color: blue;
+  color: whitesmoke;
 }
 
 .LandingPage {
@@ -110,7 +110,7 @@
 }
 
 .ProductList .section .gallery {
-  margin: 5px;
+  margin: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 25vw);
