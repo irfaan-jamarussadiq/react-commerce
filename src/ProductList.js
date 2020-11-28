@@ -9,10 +9,13 @@ export default function ProductList() {
                         <figure class="gallery__item gallery__item--1">
                             <img src="images/bedroom.jpg" class="gallery__img" alt="Image 1" />
                         </figure>
-                        <div className="product-info">
+                        <div className="product-name-container">
                             <h3 className="product-name">Queen Sized Bed</h3>
                         </div>
-                        <h4 className="product-price">$350.99</h4>
+
+                        <div className="product-price-container">
+                            <h4 className="product-price">$350.99</h4>
+                        </div>
                     </div>
                     <div className="gallery-item">
                         <figure class="gallery__item gallery__item--2">
