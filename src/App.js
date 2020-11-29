@@ -27,8 +27,8 @@ export default function App() {
       </Section>
 
       <Section
-        title="Account"
-        text={<Login/>}
+        title="Contact"
+        text={""}
         dark={false}
         id="section3"
       >

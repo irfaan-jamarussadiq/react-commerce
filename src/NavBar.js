@@ -43,6 +43,18 @@ class NavBar extends React.Component {
               offset={-70}
               duration={500}
             >
+              Contact
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               Account
             </Link>
           </li>
