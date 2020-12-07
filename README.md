@@ -1,3 +1,2 @@
 # react-commerce
-E-commerce website for furniture.
-Made with ReactJS.
+E-commerce website made with ReactJS.
