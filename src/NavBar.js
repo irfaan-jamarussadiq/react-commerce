@@ -16,7 +16,7 @@ class NavBar extends React.Component {
               to="section1"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Shop
@@ -28,7 +28,7 @@ class NavBar extends React.Component {
               to="section2"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Collections
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
               to="section3"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Contact
@@ -52,7 +52,7 @@ class NavBar extends React.Component {
               to="section3"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
               Account

@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
                         to="section1"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-100}
                         duration={500}
                     >
                         <h2 class="company-name">HomeCraft</h2>

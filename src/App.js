@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar.js";
 import Section from "./Section.js";
-import Login from "./Login.js";
 import Collections from "./Collections.js";
 import Contact from "./Contact.js";
 import LandingPage from "./LandingPage.js";
