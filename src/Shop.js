@@ -1,5 +1,7 @@
 import React from "react";
 
+// TODO: Make a Product.js so that this doesn't look so horrendous.
+
 export default function Shop() {
     return (
         <div className="Shop">
