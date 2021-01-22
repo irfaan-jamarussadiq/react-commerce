@@ -9,7 +9,6 @@ export default function Contact() {
 
   return (
     <div class="form-container">
-      <hr/>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>Full Name</label>
         <input

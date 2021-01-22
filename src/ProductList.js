@@ -4,7 +4,6 @@ export default function ProductList() {
     return (
         <div className="ProductList">
             <div className="section" id="shop">
-                <hr/>
                 <div class="gallery">
                     <div className="gallery-item">
                         <figure class="gallery__item gallery__item--1">
