@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function ProductList() {
+export default function Shop() {
     return (
-        <div className="ProductList">
+        <div className="Shop">
             <div className="section" id="shop">
                 <div class="gallery">
                     <div className="gallery-item">

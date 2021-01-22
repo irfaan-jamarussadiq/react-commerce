@@ -4,7 +4,7 @@ import Section from "./Section.js";
 import Collections from "./Collections.js";
 import Contact from "./Contact.js";
 import LandingPage from "./LandingPage.js";
-import ProductList from "./ProductList.js";
+import Shop from "./Shop.js";
 import "./styles.css";
 
 export default function App() {
@@ -14,14 +14,14 @@ export default function App() {
       <LandingPage />
       <Section
         title="Shop"
-        text={<ProductList/>}
+        content={<Shop/>}
         dark={false}
         id="section1"
       >
       </Section>
       <Section
         title="Collections"
-        text={<Collections/>}
+        content={<Collections/>}
         dark={false}
         id="section2"
       >
@@ -29,7 +29,7 @@ export default function App() {
 
       <Section
         title="Contact"
-        text={<Contact/>}
+        content={<Contact/>}
         dark={false}
         id="section3"
       >
@@ -37,6 +37,3 @@ export default function App() {
     </div>
   );
 }
-
-// x: 3/8
-// y: 7/36

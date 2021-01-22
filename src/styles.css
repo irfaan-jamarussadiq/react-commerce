@@ -104,12 +104,12 @@
 	}
 }
 
-.ProductList h2 {
+.Shop h2 {
   font-size: 48px;
   font-family: 'Nanum Gothic', cursive;
 }
 
-.ProductList .section .gallery {
+.Shop .section .gallery {
   margin: 25px;
   padding-bottom: 40px;
   display: grid;
@@ -129,7 +129,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .ProductList .section .gallery {
+  .Shop .section .gallery {
     margin: 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -149,7 +149,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .ProductList .section .gallery {
+  .Shop .section .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 15vw);
